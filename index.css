@@ -19,16 +19,6 @@ body {
     text-align: center;
     border-radius: 10px;
 }
-#card{
-    display: none;
-    position: fixed;
-    top: 10%;
-    left: 5%;
-    right:5%;
-    background-color: cornflowerblue;
-    color:#faebd7;
-    z-index: 999;
-    border-radius: 2%;
-}
+
 
 
