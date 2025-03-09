@@ -22,3 +22,47 @@ body {
 
 
 
+/* From Uiverse.io by Tsiangana */ 
+.button {
+    width: 15rem;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 1;
+    background: #ff135a;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.button:hover {
+    background: #ff135a;
+    color: #fff;
+}
+
+/* Progress bar */
+.progress-bar {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #ffffff 0%, #f947c1 100%);
+    transition: width 3s linear;
+    z-index: -1;
+}
+
+/* Hover effect to trigger animation */
+.button:hover .progress-bar {
+    width: 100%;
+}
